@@ -4,6 +4,9 @@ Lors de ce projet nous avons pu mettre à l'épreuve notre compréhension de Jav
 ## La mise à l'épreuve
 Notre formateur nous a ainsi mis en avant le projet sous le format d'une vidéo présentation où nous devions reproduire avec quasi exactitude le format, l'animation et les jeux reproduit sur sa maquette. Nous avions quartier libre sur certain aspect visuel, s'arretant là.
 
+### Vidéo explicative
+cf. dossier "guide_Exercice" : Tirage-au-sort-preview-projet.mp4
+
 ## Le grand saut
 
 ### HTML/CSS
