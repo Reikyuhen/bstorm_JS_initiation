@@ -1,0 +1,261 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0pt;
+    padding: 0pt;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#global{
+    min-height: 100vh;
+    background-image: url(/images_Jeux/game_Center.webp);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;    
+}
+
+#winnerText{
+    text-shadow: rgb(0, 0, 0) 1pt 1pt 1pt, rgb(0, 0, 0) 2pt 1pt 1pt;
+    animation: winnerScroll infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes winnerScroll {
+    from {transform: translateX(95vw);}
+    to {transform: translateX(-95vw);}
+}
+
+#game_Modes h3{
+    display: flex;
+    justify-content: center;
+    text-shadow: rgb(0, 0, 0) 1pt 1pt 1pt, rgb(0, 0, 0) 2pt 1pt 1pt;
+
+}
+
+.mode{
+    padding: 0pt;
+    margin: 0pt;
+    width: 26vw;
+    height: 5vh;
+    transition: 200ms;
+}
+
+.cyan{
+    background-color: teal;
+    color: white;
+    border-style: none;
+}
+
+.cyan:hover{
+    cursor: pointer;
+    background-color: rgb(15, 155, 155);
+    box-shadow: rgb(15, 155, 155) 0pt 0pt 5pt;
+}
+
+.highlightedMode{
+    background-color: rgb(15, 155, 155);
+    box-shadow: rgb(15, 155, 155) 0pt 0pt 5pt;
+    border: none;
+}
+.onRunHighlightedMode{
+    background-color: rgba(35, 130, 130);
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#election_Btn{
+    border-radius: 20pt 0pt 0pt 0pt;
+}
+
+#classement_Btn{
+    border-style: none;
+    border-left: solid white;
+    border-right: solid white;
+}
+
+#questions_Btn{
+    border-radius: 0pt 20pt 0pt 0pt;
+}
+
+#types_Game{
+    display: flex;
+}
+
+.middle_Screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 10vh;
+    height: auto;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+}
+
+#game_Title{
+    padding: 10pt;
+}
+
+#alignement_Card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.player_Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 2pt;
+    background-color: white;
+    width: 15vw;
+    height: 6em;
+    padding: 2em;
+    padding-bottom: 5pt;
+    margin: 10pt;
+    color: black;
+}
+
+.player_Card p {
+    margin: 5pt;
+}
+
+.player_Card button {
+    margin: 5pt;
+}
+
+.delete_Player{
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 2pt;
+    color: white;
+    transition: 200ms;
+    border-style: none;
+}
+
+.choosen{
+    background-color: rgb(25, 80, 80);
+    color: white;
+}
+
+.choosenOne{
+    background-color: white;
+    color: black;
+}
+
+#condition{
+    background-color: red;
+    width: 100vw;
+    height: auto;
+}
+
+#condition p{
+    margin: 0pt;
+    padding: 3pt;
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+#intro h1{
+    margin: 5pt;
+}
+
+#start_Button{
+    color: white;
+    padding: 5pt;
+    border-radius: 3pt;
+    margin: 10pt;
+    background-color: red;
+    font-size: 15pt;
+    border-style: none;
+    transition: 200ms;
+}
+
+#start_Button:hover{
+    cursor: pointer;
+    box-shadow: rgb(255, 65, 65) 0pt 0pt 3pt;
+}
+
+#game_Function{
+    display: flex;
+}
+
+.function_Btn{
+    width:20vw;
+    height: 6vh;
+    margin: 2%;
+    border-style: none;
+    border-radius: 4pt;
+    color: white;
+    transition: 200ms;
+    font-size: x-large;
+}
+
+.green{
+    background-color: green;
+}
+
+.green:hover{
+    background-color: rgb(5, 145, 5);
+    box-shadow: rgb(5, 145, 5) 0pt 0pt 3pt;
+}
+
+.red{
+    background-color: red;
+}
+
+.red:hover{
+    background-color: rgb(255,65,65);
+    box-shadow: rgb(255,65,65) 0pt 0pt 3pt;
+}
+
+.disabled{
+    background-color: rgba(230, 230, 230, 0.7);
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+@media only screen and (min-width:770px) {
+    .mode{
+        width: 15vw;
+        font-size: 15pt;
+    }
+
+    .function_Btn{
+        width: 10vw;
+        height: 6vh;
+    }   
+}
+
+#bronzeCup{
+    width: 4vw;
+    height: 8vh;
+}
+
+#silverCup{
+    width: 4vw;
+    height: 8vh;
+}
+
+#goldCup{
+    width: 4vw;
+    height: 8vh;
+}
