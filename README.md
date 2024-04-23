@@ -14,7 +14,7 @@ Notre formateur nous a ainsi mis en avant le projet sous le format d'une vidéo 
 ### JavaScript
 
 - J'ai tout mis sur un seul fichier JavaScript, après une formation plus longue j'ai appris que ce n'est pas très esthétique ni recommandé.
-- La consigne dans ce projet était de ne pas utiliser HTML, plus précisément de créer tout l'HTML via JavaScript en utilisant la methode "document.createElement" et donc ainsi manipuler le body directement.
+- La consigne dans ce projet était de ne pas utiliser HTML, plus précisément de créer tout l'HTML via JavaScript en utilisant la methode "document.createElement" et donc ainsi manipuler le DOM.
 - J'ai créer d'abord le "hub" de mon site en mettant en place toute l'architecture global via la fonction game_display(), cette dernière met en place toutes les focntions tel que ajouter des joueurs, en retirer, mettre en place les boutons de jeux, etc.
 - Lorsque toute l'architecture du site est mis en place la fonction game_display() lance automatiquement par défaut le premier jeux qui est un jeux de selection de personne, election_game_intro()
 - J'ai décidé de déstructurer les 3 jeux en trois mode différent.
